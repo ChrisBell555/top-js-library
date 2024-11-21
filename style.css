@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 4fr;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    flex: 0 0 auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    overflow: auto;
+}
+
+.book {
+    background-color: beige;
+    margin: 10px;
+}
