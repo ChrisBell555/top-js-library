@@ -34,7 +34,7 @@ html, body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     grid-auto-rows: minmax(200px, 300px);
     overflow: auto;
-    gap: 10px;
+    gap: 15px;
 }
 
 
@@ -48,6 +48,8 @@ html, body {
     margin: 0;
     grid-auto-rows: minmax(0, 1fr);
     font-size: 1.5rem;
+    box-shadow: 3px 3px 6px;
+    border: 2px solid black;
 }
 
 .book-buttons {
@@ -94,7 +96,7 @@ html, body {
     width: 40%; /* Could be more or less, depending on screen size */
 }
 
-  /* The Close Button */
+/* The Close Button */
 .close {
     color: #aaa;
     float: right;
@@ -102,21 +104,21 @@ html, body {
     font-weight: bold;
 }
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
 }
 
-  .modal-form {
+.modal-form {
     display: grid;
     justify-content: center;
     grid-template-columns: 50%;
 
 }
 
-  .modal-form input {
+.modal-form input {
     margin-bottom: 15px;
 }
 
