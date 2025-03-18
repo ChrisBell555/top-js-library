@@ -1,16 +1,18 @@
 const myLibrary = []
 let isLibraryOpen = false;
 
+class Book {
 
-function Book(name, author, pages, isRead) {
-    this.name = name;
-    this.author = author;
-    this.pages = pages;
-    this.isRead = isRead;
-}
+    constructor(name, author, pages, isRead) {
+        this.name = name;
+        this.author = author;
+        this.pages = pages;
+        this.isRead = isRead;
+    }
 
-Book.prototype.changeReadValue = function() {
-    this.isRead = !this.isRead;
+    changeReadValue() {
+        this.isRead = !this.isRead;
+    }
 }
 
 
